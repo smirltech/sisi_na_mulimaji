@@ -230,10 +230,7 @@
         <div class="row align-center">
             <div class="col-xl-6 col-lg-5">
                 <div class="about-style-one-thumb">
-                    <img src="assets/img/about/1.jpg" alt="Image Not Found">
-                    <div class="animation-shape">
-                        <img src="assets/img/illustration/1.png" alt="Image Not Found">
-                    </div>
+                    <img src="assets/img/2024/home.jpeg" alt="Image Not Found">
                 </div>
             </div>
             <div class="col-xl-5 offset-xl-1 col-lg-6 offset-lg-1">
@@ -243,13 +240,6 @@
                     <p>
                        Est une société commerciale à responsabilité limitée, œuvrant dans le domaine agricole, ayant comme objectif d’offrir des différents services à la population de sa juridiction, notamment; vente d’intrants agricoles, consultance et accompagnement technique.
                     </p>
-                    <div class="fun-fact-style-flex mt-35">
-                        <div class="counter">
-                            <div class="timer" data-to="25" data-speed="2000">25</div>
-                            <div class="operator">M</div>
-                        </div>
-                        <span class="medium">Growth Tonns <br> of Harvest</span>
-                    </div>
                     <ul class="top-feature">
                         <li>
                             <div class="icon">
