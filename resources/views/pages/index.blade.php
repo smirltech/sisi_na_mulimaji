@@ -103,26 +103,22 @@
 
                 <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                     <li class="dropdown">
-                        <a href="#" class="active"  >Home</a>
+                        <a href="#" class="active"  >Accueil</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#"   >Pages</a>
+                        <a href="#"   >Mission</a>
                     </li>
                     <li class="dropdown">
-                        <a href="project.html"   >Projects</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="project.html">Project</a></li>
-                            <li><a href="project-details.html">Project Details</a></li>
-                        </ul>
+                        <a href="project.html"   >Project</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#"   >Services</a>
+                        <a href="#"   >Objectif</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" >Blog</a>
+                        <a href="#" >Expertise</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#"   >Shop</a>
+                        <a href="#"   >Réalisations</a>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
