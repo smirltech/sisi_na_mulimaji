@@ -1,17 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-
-
-<!-- Mirrored from validthemes.net/site-template/agrica/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Jan 2024 11:10:38 GMT -->
+<html lang="fr">
 <head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Agrica - Organic Farm Agriculture Template">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- ========== Page Title ========== -->
-    <title>Agrica - Organic Farm Agriculture Template</title>
+    <title>@yield('title')</title>
 
     <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
@@ -30,15 +25,15 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 
-    <!-- ========== End Stylesheet ========== -->
-
-
+    <title>@yield('title')</title>
 
 </head>
 <body>
 
 </body>
 </html>
+
+
 <script src="assets/js/jquery-3.6.0.min.js"></script>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/jquery.appear.js"></script>
