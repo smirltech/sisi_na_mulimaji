@@ -243,7 +243,7 @@
                     <ul class="top-feature">
                         <li>
                             <div class="icon">
-                                <img src="assets/img/icon/3.png" alt="Image Not Found">
+                                <img src="assets/img/2024/icon/img_1.png" alt="Sisi na mulimaji">
                             </div>
                             <div class="info">
                                 <h4>Devise</h4>
@@ -254,7 +254,7 @@
                         </li>
                         <li>
                             <div class="icon">
-                                <img src="assets/img/icon/2.png" alt="Image Not Found">
+                                <img src="assets/img/2024/icon/img.png" alt="Image Not Found">
                             </div>
                             <div class="info">
                                 <h4>Vision</h4>
