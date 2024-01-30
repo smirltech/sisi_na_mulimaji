@@ -93,8 +93,8 @@
                                     <i class="fas fa-home"></i>
                                 </div>
                                 <div class="content">
-                                    <strong>Address:</strong>
-                                    5919 Trussville Crossings Pkwy, Birmingham
+                                    <strong>Adresse :</strong>
+                                    30, boulevard M’siri, C.Kampemba/Lubumbashi.
                                 </div>
                             </li>
                             <li>
@@ -103,7 +103,9 @@
                                 </div>
                                 <div class="content">
                                     <strong>Email:</strong>
-                                    <a href="mailto:info@validtheme.com">info@validtheme.com</a>
+                                    <a href="mailto:sisinamulimajirdc1@gmail.com">sisinamulimajirdc1@gmail.com</a>
+                                    <br>
+                                    <a href="mailto:ramazanisisinamulimaji@gmail.com">ramazanisisinamulimaji@gmail.com</a>
                                 </div>
                             </li>
                             <li>
