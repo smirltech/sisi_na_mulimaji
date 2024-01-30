@@ -59,7 +59,7 @@
                         <a href="#"   >Mission</a>
                     </li>
                     <li class="dropdown">
-                        <a href="project.html"   >Project</a>
+                        <a href="project.html">A propos</a>
                     </li>
                     <li class="dropdown">
                         <a href="#"   >Objectif</a>
