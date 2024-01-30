@@ -241,7 +241,7 @@
 
                     <h2 class="title"> Sisi na mulimaji </h2>
                     <p>
-                        une société commerciale à responsabilité limitée, œuvrant dans le domaine agricole, ayant comme objectif d’offrir des différents services à la population de sa juridiction, notamment; vente d’intrants agricoles, consultance et accompagnement technique.
+                       Est une société commerciale à responsabilité limitée, œuvrant dans le domaine agricole, ayant comme objectif d’offrir des différents services à la population de sa juridiction, notamment; vente d’intrants agricoles, consultance et accompagnement technique.
                     </p>
                     <div class="fun-fact-style-flex mt-35">
                         <div class="counter">
@@ -256,9 +256,9 @@
                                 <img src="assets/img/icon/3.png" alt="Image Not Found">
                             </div>
                             <div class="info">
-                                <h4>100% Guaranteed Organic Product</h4>
+                                <h4>Devise</h4>
                                 <p>
-                                    Always parties but trying she shewing of moment.
+                                    De la théorie à la pratique aux résultats
                                 </p>
                             </div>
                         </li>
@@ -267,9 +267,9 @@
                                 <img src="assets/img/icon/2.png" alt="Image Not Found">
                             </div>
                             <div class="info">
-                                <h4>Top-Quality Healthy Foods Production</h4>
+                                <h4>Vision</h4>
                                 <p>
-                                    Majority have suffered alteration in some form by injected humor.
+                                    Demeurer un partenaire agricole fiable
                                 </p>
                             </div>
                         </li>
