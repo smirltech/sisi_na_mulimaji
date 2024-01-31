@@ -107,24 +107,12 @@
                 <div class="col-xl-3 col-md-6 mb-30">
                     <div class="blog-style-one">
                         <div class="thumb">
-                            <a href="blog-single-with-sidebar.html"><img src="assets/img/blog/3.jpg" alt="Image Not Found"></a>
+                            <img src="assets/img/blog/3.jpg" alt="Image Not Found">
                             <div class="date"> <span> {{ $realization->date }}</span></div>
                         </div>
                         <div class="info">
-                            <div class="meta">
-                                <ul>
-                                    <li>
-                                        <a href="#">Md Sohag</a>
-                                    </li>
-                                    <li>
-                                        25 April, 2023 {{ $realization->date }}
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="post-title"><a href="blog-single-with-sidebar.html">{{ $realization->title }}</a></h3>
-                            <a href="blog-single-with-sidebar.html" class="button-regular">
-                                Continue Reading <i class="fas fa-arrow-right"></i>
-                            </a>
+                            <h3 class="post-title">{{ $realization->title }}</h3>
+                            <span>{{ $realization->content }}</span>
                         </div>
                     </div>
                 </div>
