@@ -87,7 +87,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/logo-mix.png" class="logo" alt="Logo">
+                        <img src="{{ asset("assets/img/logo-mix.png") }}" class="logo" alt="Logo">
                     </a>
                 </div>
                 <!-- End Header Navigation -->
@@ -96,7 +96,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-menu">
 
-                <img src="assets/img/logo.png" alt="Logo">
+                <img src="{{ asset("assets/img/logo.png") }}" alt="Logo">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                     <i class="fa fa-times"></i>
                 </button>
@@ -109,7 +109,7 @@
                         <a href="#"   >Mission</a>
                     </li>
                     <li class="dropdown">
-                        <a href="project.html"   >Project</a>
+                        <a href="#">Project</a>
                     </li>
                     <li class="dropdown">
                         <a href="#"   >Objectif</a>
@@ -146,7 +146,7 @@
 
             <!-- Single Item -->
             <div class="swiper-slide banner-style-one">
-                <div class="banner-thumb bg-cover shadow dark" style="background: url(assets/img/banner/3.jpg);"></div>
+                <div class="banner-thumb bg-cover shadow dark" style="background: url(assets/img/2024/home.jpeg);"></div>
                 <div class="shape">
                     <img src="assets/img/shape/2.png" alt="Image Not Found">
                 </div>
@@ -164,12 +164,12 @@
                                     </div>
                                 </div>
                                 <div class="info">
-                                    <h2><strong>Agriculture</strong> Farming Products</h2>
+                                    <h2>Secteurs d’activités</h2>
                                     <p>
-                                        Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure horrible margaret suitable.
+                                        Cabinet de consultance agricole. Vente des intrants agricoles et Services
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme btn-md radius animation" href="about-us.html">Discover More</a>
+                                        <a class="btn btn-theme btn-md radius animation" href="about-us.html">Decouvrez plus</a>
                                     </div>
                                 </div>
                             </div>
@@ -181,7 +181,7 @@
 
             <!-- Single Item -->
             <div class="swiper-slide banner-style-one">
-                <div class="banner-thumb bg-cover shadow dark" style="background: url(assets/img/banner/4.jpg);"></div>
+                <div class="banner-thumb bg-cover shadow dark" style="background: url(assets/img/2024/IMG-20230930-WA0101.jpg);"></div>
                 <div class="shape">
                     <img src="assets/img/shape/2.png" alt="Image Not Found">
                 </div>
@@ -199,12 +199,12 @@
                                     </div>
                                 </div>
                                 <div class="info">
-                                    <h2><strong>Homemade</strong> Organic Product</h2>
+                                    <h2><strong>Mission</strong></h2>
                                     <p>
-                                        Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure horrible margaret suitable.
+                                        Accompagner les opérateurs agricole (fermiers, ménages et personnes morales)
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme btn-md radius animation" href="about-us.html">Discover More</a>
+                                        <a class="btn btn-theme btn-md radius animation" href="#">Decouvrez Plus</a>
                                     </div>
                                 </div>
                             </div>
