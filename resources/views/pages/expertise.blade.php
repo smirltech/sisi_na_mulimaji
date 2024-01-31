@@ -1,6 +1,5 @@
 <div class="choose-us-style-three-area default-padding bg-dark text-light">
     <div class="illustration-bottom">
-        <img src="assets/img/illustration/17.png" alt="Image Not Found">
     </div>
     <div class="shape" style="background-image: url(assets/img/about/3.jpg);"></div>
     <div class="container">
