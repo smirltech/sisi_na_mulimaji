@@ -381,55 +381,35 @@
                     <!-- Single Item -->
                     <div class="swiper-slide">
                         <div class="gallery-style-one">
-                            <img src="assets/img/projects/1.jpg" alt="Image not Found">
-                            <div class="overlay">
-                                <p>Fruit</p>
-                                <h4><a href="project-details.html">Healthy Food</a></h4>
-                            </div>
+                            <img src="assets/img/2024/1.jpg" alt="Image not Found">
                         </div>
                     </div>
                     <!-- End Single Item -->
                     <!-- Single Item -->
                     <div class="swiper-slide">
                         <div class="gallery-style-one">
-                            <img src="assets/img/projects/2.jpg" alt="Image not Found">
-                            <div class="overlay">
-                                <p>Organic</p>
-                                <h4><a href="project-details.html">Cow Milk</a></h4>
-                            </div>
+                            <img src="assets/img/2024/2.jpg" alt="Image not Found">
                         </div>
                     </div>
                     <!-- End Single Item -->
                     <!-- Single Item -->
                     <div class="swiper-slide">
                         <div class="gallery-style-one">
-                            <img src="assets/img/projects/3.jpg" alt="Image not Found">
-                            <div class="overlay">
-                                <p>Vegetables</p>
-                                <h4><a href="project-details.html">Organic Vegetables</a></h4>
-                            </div>
+                            <img src="assets/img/2024/4.jpg" alt="Image not Found">
                         </div>
                     </div>
                     <!-- End Single Item -->
                     <!-- Single Item -->
                     <div class="swiper-slide">
                         <div class="gallery-style-one">
-                            <img src="assets/img/projects/4.jpg" alt="Image not Found">
-                            <div class="overlay">
-                                <p>Cereals</p>
-                                <h4><a href="project-details.html">Fresh Mandrains</a></h4>
-                            </div>
+                            <img src="assets/img/2024/5.jpg" alt="Image not Found">
                         </div>
                     </div>
                     <!-- End Single Item -->
                     <!-- Single Item -->
                     <div class="swiper-slide">
                         <div class="gallery-style-one">
-                            <img src="assets/img/projects/5.jpg" alt="Image not Found">
-                            <div class="overlay">
-                                <p>Havest</p>
-                                <h4><a href="project-details.html">Crispy Cucumber</a></h4>
-                            </div>
+                            <img src="assets/img/2024/3.jpg" alt="Image not Found">
                         </div>
                     </div>
                     <!-- End Single Item -->
