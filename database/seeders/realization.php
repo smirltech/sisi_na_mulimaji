@@ -45,12 +45,6 @@ class realization extends Seeder
                 'image' => 'https://www.entreprises-magazine.com/wp-content/uploads/2019/11/IMG_20191107_105724.jpg',
             ],
             [
-                'date' => '2020, 2021, et 2022',
-                'title' => 'Accompagnement de plus de 100 jeunes et femmes réfugiés en formations professionnelles',
-                'content' => 'à l’INPP dans diverses filières (Coupe-couture, conduite automobile, restaurant et pâtisserie, esthétique et coiffure, ajustage-soudure, etc)',
-                'image' => 'https://www.entreprises-magazine.com/wp-content/uploads/2019/11/IMG_20191107_105724.jpg',
-            ],
-            [
                 'date' => '2019 – 2020',
                 'title' => 'Fourniture d’engrais et produits phytosanitaires',
                 'content' => 'à ADSSE (ongd) et UNHCR',
@@ -59,7 +53,7 @@ class realization extends Seeder
             [
                 'date' => '2018 – 2019',
                 'title' => 'Installation des systèmes d’irrigation goutte à goutte',
-                'content' => 'ur un champ d’essai de 5 cultures maraîchères (5 hectares) au village Mwangakivula (Lualaba) via le département de développement économique de ICT et TFM',
+                'content' => 'sur un champ d’essai de 5 cultures maraîchères (5 hectares) au village Mwangakivula (Lualaba) via le département de développement économique de ICT et TFM',
                 'image' => 'https://www.entreprises-magazine.com/wp-content/uploads/2019/11/IMG_20191107_105724.jpg',
             ],
             [
@@ -67,6 +61,12 @@ class realization extends Seeder
                 'title' => 'Fourniture d’engrais et produits phytosanitaires',
                 'content' => 'à SEED CO et SEK nous avons initié 500 ménages de village Katanga; Bungubungu; Kangabwa; Lukutwe dans la culture de maïs et maitrise de cultures maraîchères.',
                 'image' => 'https://www.entreprises-magazine.com/wp-content/uploads/2019/11/IMG_20191107_105724.jpg',
+            ],
+            [
+            'date' => '2020, 2021, et 2022',
+            'title' => 'Accompagnement de plus de 100 jeunes et femmes réfugiés en formations professionnelles',
+            'content' => 'à l’INPP dans diverses filières (Coupe-couture, conduite automobile, restaurant et pâtisserie, esthétique et coiffure, ajustage-soudure, etc)',
+            'image' => 'https://www.entreprises-magazine.com/wp-content/uploads/2019/11/IMG_20191107_105724.jpg',
             ]
         ]);
     }
