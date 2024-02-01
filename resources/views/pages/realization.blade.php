@@ -1,89 +1,69 @@
-@include('layouts.header')
+@include('App.app')
 
-<div class="banner-area navigation-circle text-light banner-style-one zoom-effect overflow-hidden">
-    <!-- Slider main container -->
-    <div class="banner-fade">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
+<header>
+    <!-- Start Navigation -->
+    <nav class="navbar mobile-sidenav inc-shape navbar-sticky navbar-default validnavs dark">
 
-            <!-- Single Item -->
-            <div class="swiper-slide banner-style-one">
-                <div class="banner-thumb bg-cover shadow dark" style="background: url(assets/img/banner/3.jpg);"></div>
-                <div class="shape">
-                    <img src="assets/img/shape/2.png" alt="Image Not Found">
+        <div class="container d-flex justify-content-between align-items-center">
+
+
+            <div class="navbar-brand-left">
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="{{ asset("assets/img/2024/logo.png") }} " style="width: 90px; height: 90px; object-fit: cover" alt="Logo">
+                    </a>
                 </div>
-                <div class="container">
-                    <div class="row align-center">
-                        <div class="col-xl-9">
-                            <div class="content">
-                                <div class="badge">
-                                    <div class="curve-text">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" version="1.1">
-                                            <path id="textPath" d="M 0,75 a 75,75 0 1,1 0,1 z"></path>
-                                            <text><textPath href="#textPath">100% Organic Product</textPath></text>
-                                        </svg>
-                                        <a href="https://www.youtube.com/watch?v=ipUuoMCEbDQ" class="popup-youtube"><i class="fas fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <h2><strong>Agriculture</strong> Farming Products</h2>
-                                    <p>
-                                        Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure horrible margaret suitable.
-                                    </p>
-                                    <div class="button">
-                                        <a class="btn btn-theme btn-md radius animation" href="about-us.html">Discover More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- End Header Navigation -->
             </div>
-            <!-- End Single Item -->
 
-            <!-- Single Item -->
-            <div class="swiper-slide banner-style-one">
-                <div class="banner-thumb bg-cover shadow dark" style="background: url(assets/img/banner/4.jpg);"></div>
-                <div class="shape">
-                    <img src="assets/img/shape/2.png" alt="Image Not Found">
-                </div>
-                <div class="container">
-                    <div class="row align-center">
-                        <div class="col-xl-9">
-                            <div class="content">
-                                <div class="badge">
-                                    <div class="curve-text">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" version="1.1">
-                                            <path id="textPath2" d="M 0,75 a 75,75 0 1,1 0,1 z"></path>
-                                            <text><textPath href="#textPath">100% Organic Product</textPath></text>
-                                        </svg>
-                                        <a href="https://www.youtube.com/watch?v=ipUuoMCEbDQ" class="popup-youtube"><i class="fas fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <h2><strong>Homemade</strong> Organic Product</h2>
-                                    <p>
-                                        Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure horrible margaret suitable.
-                                    </p>
-                                    <div class="button">
-                                        <a class="btn btn-theme btn-md radius animation" href="about-us.html">Discover More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Single Item -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-menu">
 
+                <img src="{{ asset("assets/img/logo.png") }}" alt="Logo">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                    <i class="fa fa-times"></i>
+                </button>
+
+                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                    <li class="dropdown">
+                        <a href="#" class="active"  >Accueil</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#"   >Mission</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Project</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#"   >Objectif</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" >Expertise</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="{{ route('realization') }}">Réalisations</a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+
+
+            <!-- Main Nav -->
         </div>
+        <!-- Overlay screen for menu -->
+        <div class="overlay-screen"></div>
+        <!-- End Overlay screen for menu -->
 
-        <!-- Navigation -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+    </nav>
+    <!-- End Navigation -->
+</header>
 
-    </div>
-</div>
+
+@include('layouts.slider')
+
 
 
 
@@ -99,9 +79,6 @@
         </div>
         <div class="container">
             <div class="row">
-                <!-- Single Item -->
-                <!-- End Single Item -->
-                <!-- Single Item -->
 
                 @foreach($realizations as $realization)
                 <div class="col-xl-3 col-md-6 mb-30">

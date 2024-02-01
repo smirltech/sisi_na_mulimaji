@@ -11,10 +11,10 @@
     <meta name="description" content="Agrica - Organic Farm Agriculture Template">
 
     <!-- ========== Page Title ========== -->
-    <title>Agrica - Organic Farm Agriculture Template</title>
+    <title>Sisi na mulimaji</title>
 
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
 
     <!-- ========== Start Stylesheet ========== -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
