@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 offset-lg-6 pl-60 pl-md-15 pl-xs-15">
-                <h2 class="title">Partage D'experience</h2>
+                <h2 class="title" id="expertise">Partage D'experience</h2>
                     <ul class="list-item">
                         <li>Experts en productions végétales et animales</li>
                         <li>Experts en gestion des exploitations agricoles</li>

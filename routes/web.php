@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages.index');
-});
+})->name('home');
 
 Route::get('realization',[App\Http\Controllers\RealizationController::class, 'index'])->name('realization');
 

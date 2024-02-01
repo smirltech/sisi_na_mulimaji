@@ -6,7 +6,7 @@
                 <!-- Single Itme -->
                 <div class="col-lg-4 col-md-6 item">
                     <div class="footer-item about">
-                        <img  style="object-fit: cover; height: 90px; width: 90px" src="assets/img/2024/logo.png" alt="Logo">
+                        <a href="{{ route('home') }}"><img  style="object-fit: cover; height: 90px; width: 90px" src="assets/img/2024/logo.png" alt="Logo"></a>
                         <p>
                             Société commerciale à responsabilité limitée, œuvrant dans le domaine agricole.
                         </p>
@@ -20,22 +20,22 @@
                         <h4 class="widget-title">Nos liens</h4>
                         <ul>
                             <li>
-                                <a href="about-us.html">Accueil</a>
+                                <a href="{{ route('home') }}">Accueil</a>
                             </li>
                             <li>
-                                <a href="about-us.html">Mission</a>
+                                <a href="/#mission">Mission</a>
                             </li>
                             <li>
-                                <a href="team.html">A propos</a>
+                                <a href="/#about">A propos</a>
                             </li>
                             <li>
-                                <a href="blog-single-with-sidebar.html">Objectif</a>
+                                <a href="/#objectif">Objectif</a>
                             </li>
                             <li>
-                                <a href="services.html">Expertise</a>
+                                <a href="/#expertise">Expertise</a>
                             </li>
                             <li>
-                                <a href="team-details.html">Realisations</a>
+                                <a href="{{ Request::is('/') ? route('realization'):'#' }}">Realisations</a>
                             </li>
                         </ul>
                     </div>
@@ -45,28 +45,16 @@
                 <!-- Single Itme -->
                 <div class="col-lg-3 col-md-6 item">
                     <div class="footer-item recent-post">
-                        <h4 class="widget-title">Recent Posts</h4>
+                        <h4 class="widget-title">Queques produits</h4>
                         <ul>
                             <li>
                                 <div class="thumb">
                                         <img src="assets/img/2024/1.jpg" alt="img">
                                 </div>
-                                <div class="info">
-                                    <div class="meta-title">
-                                        <span class="post-date">12 Sep, 2023</span>
-                                    </div>
-                                    <h5><a href="blog-single-with-sidebar.html">Meant widow equal an share least part. </a></h5>
-                                </div>
                             </li>
                             <li>
                                 <div class="thumb">
                                         <img src="assets/img/2024/2.jpg" alt="img">
-                                </div>
-                                <div class="info">
-                                    <div class="meta-title">
-                                        <span class="post-date">18 Jul, 2023</span>
-                                    </div>
-                                    <h5><a href="blog-single-with-sidebar.html">Future Plan & Strategy for Consutruction </a></h5>
                                 </div>
                             </li>
                         </ul>
