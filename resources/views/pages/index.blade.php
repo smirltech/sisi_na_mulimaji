@@ -60,7 +60,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="{{ route('home') }}">
                         <img src="{{ asset("assets/img/2024/logo.png") }} " style="width: 90px; height: 90px; object-fit: cover" alt="Logo">
                     </a>
                 </div>
@@ -77,19 +77,19 @@
 
                 <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                     <li class="dropdown">
-                        <a href="#" class="active"  >Accueil</a>
+                        <a href="#" class="active">Accueil</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#about"    >A propos</a>
+                        <a href="#about">A propos</a>
                     </li>
                     <li class="dropdown">
                         <a href="#produit">Produit</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#"   >Objectif</a>
+                        <a href="#objectif">Objectif</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" >Expertise</a>
+                        <a href="#expertise">Expertise</a>
                     </li>
                     <li class="dropdown">
                         <a href="{{ route('realization') }}">Réalisations</a>
@@ -125,10 +125,10 @@
                     <img src="assets/img/2024/home.jpeg" alt="Image Not Found">
                 </div>
             </div>
-            <div class="col-xl-5 offset-xl-1 col-lg-6 offset-lg-1" id="about">
+            <div class="col-xl-5 offset-xl-1 col-lg-6 offset-lg-1">
                 <div class="about-style-one-info">
 
-                    <h2 class="title"> Sisi na mulimaji </h2>
+                    <h2 class="title" id="about"> Sisi na mulimaji </h2>
                     <p>
                        Est une société commerciale à responsabilité limitée, œuvrant dans le domaine agricole, ayant comme objectif d’offrir des différents services à la population de sa juridiction, notamment; vente d’intrants agricoles, consultance et accompagnement technique.
                     </p>
@@ -171,7 +171,7 @@
 
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
-                <div class="site-heading text-center">
+                <div class="site-heading text-center" id="objectif">
                     <h2 class="title">Notre secteurs d’activités, Mission et Références</h2>
                 </div>
             </div>
@@ -249,13 +249,13 @@
 
 <!-- Start Gallery
 ============================================= -->
-<div class="gallery-style-one-area default-padding" id="produit">
+<div class="gallery-style-one-area default-padding">
 
     <div class="container">
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
                 <div class="site-heading text-center">
-                    <h2 class="title">Nos Produits</h2>
+                    <h2 class="title" id="produit">Nos Produits</h2>
                 </div>
             </div>
         </div>

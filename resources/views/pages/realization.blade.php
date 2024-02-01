@@ -13,7 +13,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="{{ route('home') }}">
                         <img src="{{ asset("assets/img/2024/logo.png") }} " style="width: 90px; height: 90px; object-fit: cover" alt="Logo">
                     </a>
                 </div>
@@ -30,22 +30,22 @@
 
                 <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                     <li class="dropdown">
-                        <a href="#" class="active"  >Accueil</a>
+                        <a href="{{ route('home') }}" class="active"  >Accueil</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#"   >Mission</a>
+                        <a href="/#mission"   >Mission</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#">Project</a>
+                        <a href="/#produit">Produits</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#"   >Objectif</a>
+                        <a href="/#objectif"   >Objectif</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" >Expertise</a>
+                        <a href="/#expertise" >Expertise</a>
                     </li>
                     <li class="dropdown">
-                        <a href="{{ route('realization') }}">Réalisations</a>
+                        <a href="#">Réalisations</a>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
