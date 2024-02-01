@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('realization',[App\Http\Controllers\RealizationController::class, 'index'])->name('realization');
+
+

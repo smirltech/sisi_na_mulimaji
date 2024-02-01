@@ -21,27 +21,9 @@ class realization extends Seeder
                 'image' => 'https://www.entreprises-magazine.com/wp-content/uploads/2019/11/IMG_20191107_105724.jpg',
             ],
             [
-                'date' => '2023',
-                'title' => 'Fourniture de 39 tonnes de Mycosol (engrais biologique) et 1680 litre d’herbicide',
-                'content' => 'sous le bon de commande 4500437150 à Mutanda Mining (Vendor n° 1081219)',
-                'image' => 'https://www.entreprises-magazine.com/wp-content/uploads/2019/11/IMG_20191107_105724.jpg',
-            ],
-            [
                 'date' => '2021 - 2022',
                 'title' => 'Fourniture d’engrais et produits phytosanitaires et encadrement',
                 'content' => 'de plus de 100 fermiers aux environs de Lubumbashi dans les différents types de systèmes d’irrigation',
-                'image' => 'https://www.entreprises-magazine.com/wp-content/uploads/2019/11/IMG_20191107_105724.jpg',
-            ],
-            [
-                'date' => '2023',
-                'title' => 'Fourniture de 39 tonnes de Mycosol (engrais biologique) et 1680 litre d’herbicide',
-                'content' => 'sous le bon de commande 4500437150 à Mutanda Mining (Vendor n° 1081219)',
-                'image' => 'https://www.entreprises-magazine.com/wp-content/uploads/2019/11/IMG_20191107_105724.jpg',
-            ],
-            [
-                'date' => '2023',
-                'title' => 'Fourniture de 39 tonnes de Mycosol (engrais biologique) et 1680 litre d’herbicide',
-                'content' => 'sous le bon de commande 4500437150 à Mutanda Mining (Vendor n° 1081219)',
                 'image' => 'https://www.entreprises-magazine.com/wp-content/uploads/2019/11/IMG_20191107_105724.jpg',
             ],
             [

@@ -2,7 +2,6 @@
 <html lang="en">
 
 
-<!-- Mirrored from validthemes.net/site-template/agrica/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Jan 2024 11:10:38 GMT -->
 <head>
     <!-- ========== Meta Tags ========== -->
     <meta charset="utf-8">
@@ -11,10 +10,10 @@
     <meta name="description" content="Agrica - Organic Farm Agriculture Template">
 
     <!-- ========== Page Title ========== -->
-    <title>Agrica - Organic Farm Agriculture Template</title>
+    <title>Sisi na mulimaji</title>
 
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/2024/logo.png" type="image/x-icon">
 
     <!-- ========== Start Stylesheet ========== -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -39,32 +38,7 @@
 
 <body>
 
-<!-- Start Preloader
-============================================= -->
-<div id="preloader">
-    <div id="agrica-preloader" class="agrica-preloader">
-        <div class="animation-preloader">
-            <div class="spinner"></div>
-        </div>
-        <div class="loader">
-            <div class="row">
-                <div class="col-3 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-right">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-right">
-                    <div class="bg"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Preloader -->
+
 
 <!-- Start Header Top
 ============================================= -->
@@ -87,7 +61,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img src="{{ asset("assets/img/logo-mix.png") }}" class="logo" alt="Logo">
+                        <img src="{{ asset("assets/img/2024/logo.png") }} " style="width: 90px; height: 90px; object-fit: cover" alt="Logo">
                     </a>
                 </div>
                 <!-- End Header Navigation -->
@@ -106,10 +80,10 @@
                         <a href="#" class="active"  >Accueil</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#"   >Mission</a>
+                        <a href="#about"    >A propos</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#">Project</a>
+                        <a href="#produit">Produit</a>
                     </li>
                     <li class="dropdown">
                         <a href="#"   >Objectif</a>
@@ -138,54 +112,7 @@
 <!-- Start Banner Area
 ============================================= -->
 
-<div class="banner-area navigation-circle text-light banner-style-one zoom-effect overflow-hidden">
-    <!-- Slider main container -->
-    <div class="banner-fade">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-
-            <!-- Single Item -->
-            <div class="swiper-slide banner-style-one">
-                <div class="banner-thumb bg-cover shadow dark" style="background: url(assets/img/2024/home.jpeg);"></div>
-                <div class="container">
-                    <div class="row align-center">
-                        <div class="col-xl-9">
-                            <div style="width: 300px; height: 500px">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Single Item -->
-
-            <!-- Single Item -->
-            <div class="swiper-slide banner-style-one">
-                <div class="banner-thumb bg-cover shadow dark" style="background: url(assets/img/2024/expert.jpg);"></div>
-                <div class="shape">
-                    <img src="assets/img/shape/2.png" alt="Image Not Found">
-                </div>
-                <div class="container">
-                    <div class="row align-center">
-                        <div class="col-xl-9">
-                            <div style="width: 300px; height: 500px">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Single Item -->
-
-        </div>
-
-        <!-- Navigation -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-    </div>
-</div>
-
+@include('layouts.slider')
 <!-- End Banner -->
 
 <!-- Start About
@@ -198,7 +125,7 @@
                     <img src="assets/img/2024/home.jpeg" alt="Image Not Found">
                 </div>
             </div>
-            <div class="col-xl-5 offset-xl-1 col-lg-6 offset-lg-1">
+            <div class="col-xl-5 offset-xl-1 col-lg-6 offset-lg-1" id="about">
                 <div class="about-style-one-info">
 
                     <h2 class="title"> Sisi na mulimaji </h2>
@@ -322,14 +249,13 @@
 
 <!-- Start Gallery
 ============================================= -->
-<div class="gallery-style-one-area default-padding">
+<div class="gallery-style-one-area default-padding" id="produit">
 
     <div class="container">
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
                 <div class="site-heading text-center">
-                    <h5 class="sub-title">Awesome Gallery</h5>
-                    <h2 class="title">Explore Projects</h2>
+                    <h2 class="title">Nos Produits</h2>
                 </div>
             </div>
         </div>

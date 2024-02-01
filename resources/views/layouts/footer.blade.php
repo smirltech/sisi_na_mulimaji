@@ -6,9 +6,9 @@
                 <!-- Single Itme -->
                 <div class="col-lg-4 col-md-6 item">
                     <div class="footer-item about">
-                        <img class="logo" src="assets/img/logo-light.png" alt="Logo">
+                        <img  style="object-fit: cover; height: 90px; width: 90px" src="assets/img/2024/logo.png" alt="Logo">
                         <p>
-                            société commerciale à responsabilité limitée, œuvrant dans le domaine agricole.
+                            Société commerciale à responsabilité limitée, œuvrant dans le domaine agricole.
                         </p>
                     </div>
                 </div>
@@ -49,9 +49,7 @@
                         <ul>
                             <li>
                                 <div class="thumb">
-                                    <a href="blog-single-with-sidebar.html">
-                                        <img src="assets/img/thumbs/1.jpg" alt="Thumb">
-                                    </a>
+                                        <img src="assets/img/2024/1.jpg" alt="img">
                                 </div>
                                 <div class="info">
                                     <div class="meta-title">
@@ -62,9 +60,7 @@
                             </li>
                             <li>
                                 <div class="thumb">
-                                    <a href="blog-single-with-sidebar.html">
-                                        <img src="assets/img/thumbs/2.jpg" alt="Thumb">
-                                    </a>
+                                        <img src="assets/img/2024/2.jpg" alt="img">
                                 </div>
                                 <div class="info">
                                     <div class="meta-title">
