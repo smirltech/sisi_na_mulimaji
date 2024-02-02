@@ -84,7 +84,7 @@
                 <div class="col-xl-3 col-md-6 mb-30">
                     <div class="blog-style-one">
                         <div class="thumb">
-                            <img src="assets/img/blog/3.jpg" alt="Image Not Found">
+                            <img src="{{ $realization->image }}" alt="Image Not Found">
                             <div class="date"> <span> {{ $realization->date }}</span></div>
                         </div>
                         <div class="info">

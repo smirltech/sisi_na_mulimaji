@@ -6,7 +6,7 @@
 
             <!-- Single Item -->
             <div class="swiper-slide banner-style-one">
-                <div class="banner-thumb bg-cover shadow dark" style="background: url(assets/img/2024/home.jpeg);"></div>
+                <div class="banner-thumb bg-cover shadow dark" style="background: url(assets/img/2024/expert.jpg);"></div>
                 <div class="container">
                     <div class="row align-center">
                         <div class="col-xl-9">
@@ -21,7 +21,7 @@
 
             <!-- Single Item -->
             <div class="swiper-slide banner-style-one">
-                <div class="banner-thumb bg-cover shadow dark" style="background: url(assets/img/2024/expert.jpg);"></div>
+                <div class="banner-thumb bg-cover shadow dark" style="background: url(assets/img/2024/home.jpeg);"></div>
                 <div class="container">
                     <div class="row align-center">
                         <div class="col-xl-9">
