@@ -183,7 +183,7 @@
             <div class="col-lg-4 col-md-6 service-one-single">
                 <div class="service-style-one-item">
                     <div class="thumb">
-                        <img src="assets/img/2024/icon/img_2.png" alt="Image Not Found">
+                        <img class="w-100 h-auto" src="assets/img/2024/secteur.png" alt="Image Not Found">
                     </div>
                     <div class="info">
                         <div class="top">
@@ -201,7 +201,7 @@
             <div class="col-lg-4 col-md-6 service-one-single">
                 <div class="service-style-one-item">
                     <div class="thumb">
-                        <img src="assets/img/2024/icon/img_3.png" alt="Image Not Found">
+                        <img class="w-100 h-auto" src="assets/img/2024/mission.png" alt="Image Not Found">
                     </div>
                     <div class="info">
                         <div class="top">
