@@ -23,10 +23,10 @@
                                 <a href="{{ route('home') }}">Accueil</a>
                             </li>
                             <li>
-                                <a href="/#mission">Mission</a>
+                                <a href="/#about">A propos</a>
                             </li>
                             <li>
-                                <a href="/#about">A propos</a>
+                                <a href="/#produit">Produit</a>
                             </li>
                             <li>
                                 <a href="/#objectif">Objectif</a>
