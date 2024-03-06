@@ -18,7 +18,7 @@ class realization extends Seeder
                 'date' => '2023',
                 'title' => 'Fourniture de 39 tonnes de Mycosol (engrais biologique) et 1680 litre d’herbicide',
                 'content' => 'sous le bon de commande 4500437150 à Mutanda Mining (Vendor n° 1081219)',
-                'image' => 'assets/img/2024/realization/6.png' ,
+                'image' => 'assets/img/2024/realization/delivery phy.bmp' ,
             ],
             [
                 'date' => '2021 - 2022',
@@ -36,7 +36,7 @@ class realization extends Seeder
                 'date' => '2018 – 2019',
                 'title' => 'Installation des systèmes d’irrigation goutte à goutte',
                 'content' => 'sur un champ d’essai de 5 cultures maraîchères (5 hectares) au village Mwangakivula (Lualaba) via le département de développement économique de ICT et TFM',
-                'image' => 'assets/img/2024/realization/4.png',
+                'image' => 'assets/img/2024/realization/iri.png',
             ],
 
             [
