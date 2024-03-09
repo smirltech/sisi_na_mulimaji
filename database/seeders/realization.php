@@ -24,13 +24,13 @@ class realization extends Seeder
                 'date' => '2021 - 2022',
                 'title' => 'Fourniture d’engrais et produits phytosanitaires et encadrement',
                 'content' => 'de plus de 100 fermiers aux environs de Lubumbashi dans les différents types de systèmes d’irrigation',
-                'image' => 'assets/img/2024/realization/2.jpg' ,
+                'image' => 'assets/img/2024/realization/sisi 2.jpg' ,
             ],
             [
                 'date' => '2019 – 2020',
                 'title' => 'Fourniture d’engrais et produits phytosanitaires',
                 'content' => 'à ADSSE (ongd) et UNHCR',
-                'image' => 'assets/img/2024/realization/3.jpg',
+                'image' => 'assets/img/2024/realization/sisi 3.jpg',
             ],
             [
                 'date' => '2018 – 2019',
@@ -43,7 +43,7 @@ class realization extends Seeder
                 'date' => '2016 – 2017',
                 'title' => 'Fourniture d’engrais et produits phytosanitaires',
                 'content' => 'à SEED CO et SEK nous avons initié 500 ménages de village Katanga; Bungubungu; Kangabwa; Lukutwe dans la culture de maïs et maitrise de cultures maraîchères.',
-                'image' => 'assets/img/2024/realization/5.png',
+                'image' => 'assets/img/2024/realization/sisi 5.png',
             ],
             [
             'date' => '2020, 2021, et 2022',
